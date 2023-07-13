@@ -3,11 +3,11 @@ header {
     flex-wrap: wrap;
 }
 
-header.h3 {
+header h3 {
     width: 50%;
 }
 
-header.p {
+header p {
     width: 50%;
     display: flex;
     justify-content: end;
@@ -22,4 +22,21 @@ header.p {
 
 #question-section ul {
     list-style: none;
+}
+
+#start-btn {
+    
+    background-color: rgb(134, 75, 177);
+    color: white;
+    border-radius: 7px;
+    border: 2px solid rgb(134, 75, 177) ;
+    
+}
+
+.choices {
+    background-color: rgb(134, 75, 177);
+    color: white;
+    border-radius: 7px;
+    border: 2px solid rgb(134, 75, 177) ;
+    
 }
