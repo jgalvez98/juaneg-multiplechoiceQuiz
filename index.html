@@ -8,7 +8,9 @@
 </head>
 <body>
     <header>
+        <a href="">
         <h3>View Highscores</h3>
+        </a>
 
         <p>Time: <label for="" id="timer">0</label></p>
     </header>
@@ -20,7 +22,7 @@
             <button id="start-btn">Start Quiz</button>
         </section>
 
-
+                   <!---------------------------questions and answers----------------------------------->
         <section id="question-section" class="hide">
             <h2 id="title">question 1</h2>
             <ul>
@@ -29,14 +31,15 @@
                 <li><button class="choices">choice 3</button></li>
                 <li><button class="choices">choice 4</button></li>
             </ul>
-
+        <h3 id="answers"></h3>
+                   <!---------------------------Score and initials input----------------------------------->
         </section>
         <section id="initial-section" class="hide">
             <h3>All done</h3>
             <p> Your Final score is <label for="" id="score">80</label></p>
 
             Enter Initials: <input type="text" id="initial-input">
-            <button id="highscore-section"></button>
+            <button id="highscore-sectionbtn">Submit</button>
         </section>
         <section id="highscore-section" class="hide">
             <h3>high scores</h3>

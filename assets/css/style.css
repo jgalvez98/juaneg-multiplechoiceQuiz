@@ -3,14 +3,17 @@ header {
     flex-wrap: wrap;
 }
 
-header h3 {
+header h3, a{
     width: 50%;
+    color: rgb(134, 75, 177);
+    text-decoration: none;
 }
 
 header p {
     width: 50%;
     display: flex;
-    justify-content: end;
+    justify-content: end !important;
+    
 }
 .hide {
     display: none;
@@ -24,19 +27,18 @@ header p {
     list-style: none;
 }
 
-#start-btn {
-    
-    background-color: rgb(134, 75, 177);
-    color: white;
-    border-radius: 7px;
-    border: 2px solid rgb(134, 75, 177) ;
-    
-}
-
 .choices {
     background-color: rgb(134, 75, 177);
     color: white;
     border-radius: 7px;
     border: 2px solid rgb(134, 75, 177) ;
+    margin: 1px;
     
+}
+
+#highscore-sectionbtn, #go-back-btn, #start-btn, #clear-btn {
+    background-color: rgb(134, 75, 177);
+    color: white;
+    border-radius: 7px;
+    border: 2px solid rgb(134, 75, 177);
 }
